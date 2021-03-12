@@ -40,16 +40,17 @@ function draw() {
   rectMode(CENTER);
   background(132, 3, 252);
   roof.display()
-  bob1.display()
-  bob2.display()
-  bob3.display() 
-  bob4.display()
-  bob5.display()
   rope1.display()
   rope2.display()
   rope3.display()
   rope4.display()
   rope5.display()
+  bob1.display()
+  bob2.display()
+  bob3.display() 
+  bob4.display()
+  bob5.display()
+  
  
   drawSprites();
  
