@@ -2,7 +2,7 @@ class Bob {
     constructor(x, y,radius) {
       var options = {
         //isStatic:true,
-        'density':0.008,
+        'density':0.8,
         'friction': 0.5,
         'restitution':1.0
       };
@@ -11,7 +11,7 @@ class Bob {
       World.add(world, this.body);
     };
     display(){
-      strokeWeight(3)
+      strokeWeight(1)
       stroke('yellow')
       fill('red')
       ellipseMode(RADIUS)
